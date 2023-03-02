@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.clearfix{
+    clear: both;
+}
+
+nav li{
+    width: auto;
+    padding-right: 15px;
+}   
+.navbar-nav a{
+    font-size: 20px;
+    width: 77px;
+}
+.navbar-brand,
+.nav-link{
+    color: #fff !important;
+}
+nav a:hover,
+nav .active{
+    color: #fff;
+    font-weight: bold;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/hero/hero-1.jpg);
+    background-size: cover;
+}
+header .text{
+    background-color: #fff;
+    text-align: center;
+}
+.details{
+    background-color: #fff;
+    border: 1px dashed #f08632;
+    margin: 25px;
+    padding: 30px;
+}
+header .text h1{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    letter-spacing: 1.1;
+}
+ 
+.about{
+    width: 100%;
+    height: auto;
+    margin: 60px 0 ;
+    padding: 15px 0;
+}
+.abo{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px 0 ;
+}
+.abo-color span{
+    background: black;
+    height: 100%;
+    display: block;
+    line-height: 15px;
+}
+
+.icons{
+    width: 100%;
+    height: auto;
+    margin: 50px 0;
+    background-color: azure;
+    overflow: hidden;
+}
+.colo{
+    width: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly ;
+    border-radius: 50%;
+    color: #f08632;
+}
+.colo:hover{
+    width: 200px;
+    text-align: center;
+    background-color: #f08632;
+    color: #fff;
+}
+
+.product{
+    width: 100%;
+    height: auto;
+    background-color: beige;
+    margin: 50px 0;
+    padding-bottom: 50px;
+    font-weight: bold
+}
+.product-item{
+    width: 90%;
+    height: 250;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+.product-label{
+    position: absolute;
+    top: 240;
+    text-align: center;
+    background-color: #fff;
+}
+.product-label span{
+    padding: 2 5;
+}
+.product-details {
+    margin-top: 15px;
+}
+
+.cakes{
+    width: 100%;
+    background: rgba(240, 135, 50, 0.1);
+    height: auto;
+}
+.cakes input{
+    height: 40px;
+    border: none;
+}
+.cakes button{
+    background-color: #000;
+    border: none;
+}
+.cakes .vedio{
+    background-image: url(../img/class-video.jpg);
+    background-size: cover;
+    height: 480;
+    width: 100%; 
+    position: absolute;
+    right: 0;
+}
+@media (max-width: 767px) {
+  .cakes .vedio {
+    position:inherit;
+  }
+}
+.cakes .vedio a{
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    background-color: #f08632;
+    border-radius: 50%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none
+}
+
+.team{
+    width: 100%;
+    height: auto;
+    margin: 60px 0;
+}
+.team .tea{
+    position: relative;
+    overflow: hidden;
+}
+.team .tea:hover .hovers{
+    bottom: 0;
+}
+.team .tea .hovers{
+    bottom: -50%;
+    width: 270px;
+    height: 45%;
+    position: absolute;
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+    transition: 0.3;
+}
+    
+.team button{
+    height: 55px;
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #999;
+}
+.team .hovers{
+    
+}
+.team a,
+.team a:hover{
+    color: #000;
+    padding-right: 15px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.testimonial{
+    width: 100%;
+    background-color:azure;
+    margin: 50 0;
+    padding: 50 0;
+}
+.testi .text{
+    width: 60%
+}
+.testi .authors-details{
+    margin-top: 20px;
+}
+
+.follow .icon{
+    width: auto;
+    height: 150;
+    background-image: url(../img/instagram/cake-piece.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    font-size: 30;
+    color: 666;
+}
+.follow .icon i{
+    font-size: 40px;
+    color: #000;
+    margin-right: 20px;
+}
+.follow .img{
+    margin: 5px 0 ;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-image: url('../img/footer-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    margin-top: 70px;
+}
+footer h6{
+    color: #fff;
+    text-transform: uppercase;
+}
+footer h6,
+footer img{
+    margin-bottom: 20
+}
+footer p{
+    color: #999;
+}
+footer .social{
+    width: 100%;
+    text-align: center;
+}
+footer .fab{
+    width: 30;
+    height: 30;
+    color: #fff;
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: 15px;
+    background: rgba(225, 225, 225, 0.1);
+    border-radius: 50%;
+    padding: 8;
+    text-align: center;
+}
+footer input{
+    width: 80%;
+    padding: 10 5 10 20;
+    background: rgba(225,225,225,0.8);
+    border-radius: 5px;
+    border: none;
+}
+.copy{
+    background-color: #000;
+    padding: 15 0;
+    color: #fff;
+}
+.copy a{
+    color: #fff;
+}
+
+
+h1, h2, h3, h4, h5, h6, a, li, button{
+    text-transform: capitalize;
+}
+ul{
+    list-style: none;
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+button{
+    background: #f08632;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 14px 30px;
+    letter-spacing: 2;
+    border: none;
+}
+.top h4{
+    color: #f08632;
+    margin: 10px 0;
+    letter-spacing: 2.2;
+    text-transform: uppercase;
+}
+.top h1{
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
